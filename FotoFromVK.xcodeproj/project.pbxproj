@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EF5F99A35B70E44437490A4 /* Pods_FotoFromVK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7FA134823A8A27FA691CBE /* Pods_FotoFromVK.framework */; };
+		871845B521B8F521001F484B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871845B421B8F521001F484B /* AuthViewController.swift */; };
+		87526D5C21B709CE0013C0F7 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87526D5B21B709CE0013C0F7 /* InfoController.swift */; };
+		879FA10F218E132500383E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FA10E218E132500383E52 /* AppDelegate.swift */; };
+		879FA114218E132500383E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879FA112218E132500383E52 /* Main.storyboard */; };
+		879FA116218E132600383E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879FA115218E132600383E52 /* Assets.xcassets */; };
+		879FA119218E132600383E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879FA117218E132600383E52 /* LaunchScreen.storyboard */; };
+		87BC7EF921B57FB20057A56A /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BC7EF821B57FB20057A56A /* Cell.swift */; };
+		87BC7EFB21B57FBB0057A56A /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BC7EFA21B57FBB0057A56A /* PhotoViewController.swift */; };
+		87BC7EFF21B585630057A56A /* ZoomPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BC7EFE21B585630057A56A /* ZoomPhotoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1212A93F24F23C514C558B06 /* Pods-FotoFromVK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotoFromVK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FotoFromVK/Pods-FotoFromVK.debug.xcconfig"; sourceTree = "<group>"; };
+		32178743F5991B7DC627947A /* Pods-FotoFromVK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotoFromVK.release.xcconfig"; path = "Pods/Target Support Files/Pods-FotoFromVK/Pods-FotoFromVK.release.xcconfig"; sourceTree = "<group>"; };
+		871845B421B8F521001F484B /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		87526D5B21B709CE0013C0F7 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		879FA10B218E132500383E52 /* FotoFromVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoFromVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879FA10E218E132500383E52 /* AppDelegate.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		879FA113218E132500383E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879FA115218E132600383E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		879FA118218E132600383E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		879FA11A218E132600383E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87BC7EF821B57FB20057A56A /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		87BC7EFA21B57FBB0057A56A /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		87BC7EFE21B585630057A56A /* ZoomPhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomPhotoController.swift; sourceTree = SOURCE_ROOT; };
+		AA7FA134823A8A27FA691CBE /* Pods_FotoFromVK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FotoFromVK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879FA108218E132500383E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF5F99A35B70E44437490A4 /* Pods_FotoFromVK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879FA102218E132500383E52 = {
+			isa = PBXGroup;
+			children = (
+				879FA10D218E132500383E52 /* FotoFromVK */,
+				879FA10C218E132500383E52 /* Products */,
+				BF69AF68B808082C6B90D632 /* Pods */,
+				ED7622FE8B166FBC47B81395 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		879FA10C218E132500383E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879FA10B218E132500383E52 /* FotoFromVK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879FA10D218E132500383E52 /* FotoFromVK */ = {
+			isa = PBXGroup;
+			children = (
+				87CBC29E21B1536600B9115C /* Source */,
+				879FA115218E132600383E52 /* Assets.xcassets */,
+				879FA11A218E132600383E52 /* Info.plist */,
+			);
+			path = FotoFromVK;
+			sourceTree = "<group>";
+		};
+		87CBC29E21B1536600B9115C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				879FA112218E132500383E52 /* Main.storyboard */,
+				87BC7EFE21B585630057A56A /* ZoomPhotoController.swift */,
+				87526D5B21B709CE0013C0F7 /* InfoController.swift */,
+				87BC7EF821B57FB20057A56A /* Cell.swift */,
+				87BC7EFA21B57FBB0057A56A /* PhotoViewController.swift */,
+				871845B421B8F521001F484B /* AuthViewController.swift */,
+				879FA10E218E132500383E52 /* AppDelegate.swift */,
+				879FA117218E132600383E52 /* LaunchScreen.storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BF69AF68B808082C6B90D632 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1212A93F24F23C514C558B06 /* Pods-FotoFromVK.debug.xcconfig */,
+				32178743F5991B7DC627947A /* Pods-FotoFromVK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED7622FE8B166FBC47B81395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FA134823A8A27FA691CBE /* Pods_FotoFromVK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879FA10A218E132500383E52 /* FotoFromVK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879FA11D218E132600383E52 /* Build configuration list for PBXNativeTarget "FotoFromVK" */;
+			buildPhases = (
+				26C1C4742947A2F96FBB413B /* [CP] Check Pods Manifest.lock */,
+				879FA107218E132500383E52 /* Sources */,
+				879FA108218E132500383E52 /* Frameworks */,
+				879FA109218E132500383E52 /* Resources */,
+				2A07F452A578BAF25B7D42F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FotoFromVK;
+			productName = FotoFromVK;
+			productReference = 879FA10B218E132500383E52 /* FotoFromVK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879FA103218E132500383E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mihail;
+				TargetAttributes = {
+					879FA10A218E132500383E52 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 879FA106218E132500383E52 /* Build configuration list for PBXProject "FotoFromVK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 879FA102218E132500383E52;
+			productRefGroup = 879FA10C218E132500383E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879FA10A218E132500383E52 /* FotoFromVK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879FA109218E132500383E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879FA119218E132600383E52 /* LaunchScreen.storyboard in Resources */,
+				879FA116218E132600383E52 /* Assets.xcassets in Resources */,
+				879FA114218E132500383E52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26C1C4742947A2F96FBB413B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FotoFromVK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A07F452A578BAF25B7D42F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FotoFromVK/Pods-FotoFromVK-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VK_ios_sdk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FotoFromVK/Pods-FotoFromVK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879FA107218E132500383E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87526D5C21B709CE0013C0F7 /* InfoController.swift in Sources */,
+				871845B521B8F521001F484B /* AuthViewController.swift in Sources */,
+				87BC7EFB21B57FBB0057A56A /* PhotoViewController.swift in Sources */,
+				879FA10F218E132500383E52 /* AppDelegate.swift in Sources */,
+				87BC7EF921B57FB20057A56A /* Cell.swift in Sources */,
+				87BC7EFF21B585630057A56A /* ZoomPhotoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		879FA112218E132500383E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879FA113218E132500383E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		879FA117218E132600383E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879FA118218E132600383E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		879FA11B218E132600383E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		879FA11C218E132600383E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879FA11E218E132600383E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1212A93F24F23C514C558B06 /* Pods-FotoFromVK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J36SSFMWJ;
+				INFOPLIST_FILE = FotoFromVK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = looneman1.FotoFromVK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		879FA11F218E132600383E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32178743F5991B7DC627947A /* Pods-FotoFromVK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J36SSFMWJ;
+				INFOPLIST_FILE = FotoFromVK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = looneman1.FotoFromVK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879FA106218E132500383E52 /* Build configuration list for PBXProject "FotoFromVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879FA11B218E132600383E52 /* Debug */,
+				879FA11C218E132600383E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879FA11D218E132600383E52 /* Build configuration list for PBXNativeTarget "FotoFromVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879FA11E218E132600383E52 /* Debug */,
+				879FA11F218E132600383E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879FA103218E132500383E52 /* Project object */;
+}
